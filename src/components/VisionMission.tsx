@@ -1,7 +1,7 @@
 // components/VisionMission.tsx
 "use client";
 import React from "react";
-import { Lightbulb, Target } from "lucide-react";
+
 
 export default function VisionMission() {
   const styles = {
