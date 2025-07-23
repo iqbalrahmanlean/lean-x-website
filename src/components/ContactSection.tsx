@@ -179,15 +179,14 @@ export default function ContactSection() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Message
                   </label>
-                  <input
-                    type="text"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    placeholder="Write your message.."
-                    className="w-full px-0 py-2 border-0 border-b-2 border-gray-300 focus:border-yellow-400 outline-none bg-transparent placeholder-gray-500"
-                    style={{ '::placeholder': { color: '#8D8D8D' } }}
-                  />
+                 <input
+  type="text"
+  name="message"
+  value={formData.message}
+  onChange={handleInputChange}
+  placeholder="Write your message.."
+  className="w-full px-0 py-2 border-0 border-b-2 border-gray-300 focus:border-yellow-400 outline-none bg-transparent placeholder-gray-400"
+/>
                 </div>
 
                 {/* Submit Button */}
