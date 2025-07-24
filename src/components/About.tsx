@@ -62,9 +62,7 @@ export default function About() {
                 className="w-full h-auto rounded-lg"
                 priority
               />
-              <div className="absolute bottom-2 right-2 bg-blue-500 text-white px-3 py-1 rounded text-sm font-medium">
-                532.11 x 553
-              </div>
+             
             </div>
           </div>
         </div>
