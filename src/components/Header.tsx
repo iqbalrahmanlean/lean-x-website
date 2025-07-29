@@ -32,7 +32,7 @@ export default function Header() {
       {!isScrolled && <div className="absolute inset-0 "></div>}
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-6">
+        <div className="flex justify-between items-center py-6 text-black">
           {/* Logo */}
           <div className="flex items-center">
             <Image
@@ -95,8 +95,8 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden relative z-10">
             <div className="absolute inset-0 "></div>
-            <div className="relative z-10 border-t border-white/20 py-4">
-              <nav className="flex flex-col space-y-4">
+            <div className="relative z-10 border-t border-white/20 py-4 text-black">
+              <nav className="flex flex-col space-y-4 ">
                 <a href="#home" className=" hover:text-yellow-500 transition-colors font-medium">
                   Home
                 </a>
