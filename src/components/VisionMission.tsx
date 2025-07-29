@@ -29,13 +29,13 @@ export default function VisionMission() {
     icon: {
       width: "32px",
       height: "32px",
-      color: "#facc15", // Tailwind yellow-400
+      color: "#ffc200", // Tailwind yellow-400
       marginBottom: "16px",
     },
     title: {
       fontSize: "2rem",
       fontWeight: 700,
-      color: "#facc15", // Tailwind yellow-400
+      color: "#ffc200", // Tailwind yellow-400
       marginBottom: "16px",
     },
     description: {

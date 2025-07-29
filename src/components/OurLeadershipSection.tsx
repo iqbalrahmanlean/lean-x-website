@@ -39,7 +39,7 @@ export default function OurLeadershipSection() {
       <div className="mx-auto">
         {/* Header with yellow background */}
         <div className="mb-12 max-w-sm ml-auto">
-          <div className="bg-yellow-400 py-6 pl-6 text-center">
+          <div className="bg-yellow-400 py-6 pl-6 text-center leadership-border">
             <h2 className="text-3xl lg:text-4xl font-bold text-white">
               Our Leadership
             </h2>

@@ -32,7 +32,7 @@ export default function OurAdvisorSection() {
       <div className="mx-auto">
         {/* Header with yellow background */}
         <div className="mb-12 max-w-sm">
-          <div className="bg-yellow-400 py-6 pl-6 text-center">
+          <div className="bg-yellow-400 py-6 pl-6 text-center advisor-border">
             <h2 className="text-3xl lg:text-4xl font-bold text-white">
               Our Advisor
             </h2>
