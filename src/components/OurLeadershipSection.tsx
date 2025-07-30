@@ -6,7 +6,7 @@ export default function OurLeadershipSection() {
   const leaders = [
     {
       id: 1,
-      name: "Bee Teck Loon",
+      name: "Samson MA",
       title: "Chief Executive",
       company: "Officer",
       image: "leader1.jpg" // Replace with actual image path
