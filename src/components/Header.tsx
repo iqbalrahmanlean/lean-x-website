@@ -18,19 +18,18 @@ export default function Header() {
   }, []);
 
   return (
-    <header 
-      className={`relative sticky top-0 transition-all duration-300 z-50 ${
-        isScrolled 
-          ? 'bg-transparent backdrop-blur-md shadow-lg' 
+    <header
+      className={`relative sticky top-0 transition-all duration-300 z-50 ${isScrolled
+          ? 'bg-transparent backdrop-blur-md shadow-lg'
           : 'bg-cover bg-center bg-no-repeat'
-      }`}
+        }`}
       style={!isScrolled ? {
         backgroundImage: "url('/assets/bg.png')",
       } : {}}
     >
       {/* Background overlay - only when not scrolled */}
       {!isScrolled && <div className="absolute inset-0 "></div>}
-      
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6 text-black">
           {/* Logo */}
@@ -44,7 +43,7 @@ export default function Header() {
               priority
             />
           </div>
-          
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8 text-black">
             <a href="#home" className=" hover:text-yellow-500 transition-colors font-medium">
@@ -63,21 +62,21 @@ export default function Header() {
               Contact Us
             </a>
           </nav>
-          
+
           {/* Desktop CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors font-medium">
+            <button className="bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 hover:scale-105 hover:shadow-lg transition-all duration-300 font-medium hover-button">
               Download Our Profile
             </button>
           </div>
-          
+
           {/* Mobile menu button */}
           <div className="md:hidden">
-            <button 
+            <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="hover:text-yellow-500"
             >
-            
+
               {isMenuOpen ? (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -90,7 +89,7 @@ export default function Header() {
             </button>
           </div>
         </div>
-        
+
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden relative z-10">

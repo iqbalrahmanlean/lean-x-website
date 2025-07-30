@@ -37,7 +37,7 @@ export default function ContactSection() {
     <section className="py-16 px-6" style={{ background: 'linear-gradient(90deg, #ffc200 50%, #FCFBFF 50%)' }}>
       <div className="max-w-7xl mx-auto flex items-center justify-center min-h-[600px]">
         {/* Centered White Card */}
-        <div className="bg-white rounded-lg shadow-lg border border-blue-200 w-full max-w-5xl">
+        <div className="bg-white rounded-lg shadow-lg border  w-full max-w-5xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
             {/* Left Side - Contact Info */}
             <div className="p-12 relative">
@@ -69,13 +69,15 @@ export default function ContactSection() {
                    <img src="icon/pin.png" />
                   </div>
                   <div className="text-gray-800 font-medium">
-                    <div>M1-13A-08, Tower 1, 8trium Plaza Jalan</div>
-                    <div>Cempaka 12/5 ,52200 Bandar Sri</div>
-                    <div>Damansara Kuala Lumpur, Malaysia</div>
+                    <div>T2-21-11, 8trium Tower</div>
+                    <div>Jalan Cempaka SD12/5</div>
+                    <div>Bandar Sri Damansara,52200 , Kuala Lumpur,  Malaysia</div>
                   </div>
                 </div>
               </div>
             </div>
+
+  
 
             {/* Right Side - Contact Form */}
             <div className="p-12">
@@ -193,7 +195,7 @@ export default function ContactSection() {
                 <div className="text-right">
                   <button
                     type="submit"
-                    className="bg-yellow-400 text-white px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors" 
+                    className="hover-button bg-yellow-400 text-white px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors" 
                   >
                     Send Message
                   </button>

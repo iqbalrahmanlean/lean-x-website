@@ -20,11 +20,11 @@ export default function Footer() {
       <div className="bg-yellow-400 text-gray-900 py-6 px-6 flex flex-col md:flex-row justify-between items-center gap-4">
         {/* Left: Logo */}
         <div className="md:order-1 w-full md:w-auto text-left">
-          <img src="logo-footer.png" alt="Leanis Logo" className="h-10 w-auto" />
+          <img src="logo-footer.png" alt="Leanis Logo" className="footer-center h-10 w-auto" />
         </div>
 
         {/* Right: Copyright */}
-        <div className="md:order-2 w-full md:w-auto text-right text-sm font-medium">
+        <div className="md:order-2 w-full md:w-auto footer-center text-sm font-medium">
           &copy; 2025 Leanis Solutions. All Rights Reserved
         </div>
       </div>

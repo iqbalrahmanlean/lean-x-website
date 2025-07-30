@@ -4,7 +4,7 @@ import React from "react";
 
 export default function SeamlessIntegrationSection() {
     return (
-        <section className="bg-white py-16 px-6">
+        <section className="bg-gray-50 py-16 px-6">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Left Side - Content */}

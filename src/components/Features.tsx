@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Features() {
   return (
-    <section className="features-section">
+    <section className="features-section bg-gray-50">
       <div className="features-container">
         <div className="values-grid">
           {/* Title */}

@@ -4,7 +4,7 @@ import React from "react";
 
 export default function PaymentPlatformSection() {
     return (
-        <section className="bg-gray-50 overflow-hidden">
+        <section className="bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center min-h-screen relative">
                     {/* Left Side - Phone Image with partial yellow background */}
@@ -72,7 +72,7 @@ export default function PaymentPlatformSection() {
 
                             {/* Learn More Button */}
                             <div>
-                                <button className="bg-white text-gray-800 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-md">
+                                <button className="hover-button-reverse bg-white text-gray-800 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-md hover">
                                     Learn More
                                 </button>
                             </div>

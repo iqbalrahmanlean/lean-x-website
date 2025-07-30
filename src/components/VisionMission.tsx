@@ -7,7 +7,7 @@ export default function VisionMission() {
   const styles = {
     section: {
       padding: "80px 16px",
-      backgroundColor: "#F9F8FA",
+      backgroundColor: "white",
     },
     container: {
       maxWidth: "1200px",
