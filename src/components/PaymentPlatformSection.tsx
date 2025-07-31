@@ -33,7 +33,7 @@ export default function PaymentPlatformSection() {
                         {/* Top Section - Logo and Header overflowing to left */}
                         <div className=" p-8 flex-1 flex justify-between items-center relative">
                             {/* Payment Header - positioned to overflow into left section */}
-                            <div className="absolute  lg:-left-40 lg:-left-0 md:-left-32  top-1/2 transform -translate-y-1/2 z-10">
+                            <div className="absolute  lg:-left-25 lg:-left-0 md:-left-20  top-1/2 transform -translate-y-1/2 z-10">
                                 <img
                                     src="payment_header.png"
                                     alt="Next-Generation, Unified Payment Platform"
