@@ -5,7 +5,7 @@ import React, { useState } from "react";
 export default function ContactSection() {
   const [formData, setFormData] = useState({
     firstName: "",
-    lastName: "Doe",
+    lastName: "",
     email: "",
     phone: "",
     subject: "General Inquiry",

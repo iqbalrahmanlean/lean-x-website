@@ -55,7 +55,7 @@ export default function About() {
           <div className="relative">
             <div className="p-4 ">
               <Image
-                src="/assets/about-image.png"
+                src="/img_1-1.svg"
                 alt="Digital Payment Ecosystem"
                 width={532}
                 height={553}

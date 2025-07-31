@@ -217,26 +217,26 @@ html {
   color: #ffc200 !important;
 }
 
-.advisor-border{
+.advisor-border {
   border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
-  
-.leadership-border{
-   border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+
+.leadership-border {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 
 .hover-button:hover {
-  background : white !important ;
-  color : #ffc200;
+  background: white !important;
+  color: #ffc200;
   cursor: pointer;
-    border: 1px solid #ffc200 !important;
+  border: 1px solid #ffc200 !important;
 }
 
 .hover-button-reverse:hover {
-  background : #ffc200 !important ;
-  color : white;
+  background: #ffc200 !important;
+  color: white !important;
   border: 1px solid white !important;
   cursor: pointer;
 }
@@ -244,13 +244,36 @@ html {
 /* Mobile */
 
 @media screen and (max-width: 600px) {
-  .footer-center{
+  .footer-center {
     margin: auto !important;
     text-align: center;
   }
 }
 
 
-.border-bot-rad{
-      border-bottom-left-radius: 12px;
+.border-bot-rad {
+  border-bottom-left-radius: 12px;
+}
+
+
+.custom-layout {
+
+  top: -257px;
+  height: 200px;
+
+}
+
+.w-165 {
+  width: 165%;
+}
+
+.margin-payment-header {
+  margin-right: 185px;
+  margin-bottom: 10px;
+}
+
+.styling-full{
+      margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 0px 5px;
 }
