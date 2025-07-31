@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="">
+    <footer  className="">
       {/* Map Section */}
       <div className="w-full h-[400px]">
         <iframe

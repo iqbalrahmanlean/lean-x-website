@@ -250,3 +250,7 @@ html {
   }
 }
 
+
+.border-bot-rad{
+      border-bottom-left-radius: 12px;
+}

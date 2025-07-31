@@ -34,7 +34,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="py-16 px-6" style={{ background: 'linear-gradient(90deg, #ffc200 50%, #FCFBFF 50%)' }}>
+    <section id="contact" className="py-16 px-6" style={{ background: 'linear-gradient(90deg, #ffc200 50%, #FCFBFF 50%)' }}>
       <div className="max-w-7xl mx-auto flex items-center justify-center min-h-[600px]">
         {/* Centered White Card */}
         <div className="bg-white rounded-lg shadow-lg border  w-full max-w-5xl">

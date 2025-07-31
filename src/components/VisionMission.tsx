@@ -9,7 +9,7 @@ export default function VisionMission() {
         <div className="grid">
           {/* Vision */}
           <div className="item">
-            <img src="icon/idea.png" alt="Vision Icon" className="icon" />
+            <img src="icon/idea.svg" alt="Vision Icon" className="icon" />
             <h3 className="title">Vision</h3>
             <p className="description">
               To empower businesses of all sizes with a secure and accessible
@@ -20,7 +20,7 @@ export default function VisionMission() {
 
           {/* Mission */}
           <div className="item">
-            <img src="icon/arrow.png" alt="Mission Icon" className="icon" />
+            <img src="icon/arrow.svg" alt="Mission Icon" className="icon" />
             <h3 className="title">Mission</h3>
             <p className="description">
               To develop and continuously enhance Lean.x as a trusted,

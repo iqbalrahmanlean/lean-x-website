@@ -4,7 +4,7 @@ import React from "react";
 
 export default function PaymentPlatformSection() {
     return (
-        <section className="bg-white overflow-hidden">
+        <section id="products" className="bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center min-h-screen relative">
                     {/* Left Side - Phone Image with partial yellow background */}
@@ -52,7 +52,7 @@ export default function PaymentPlatformSection() {
                         </div>
 
                         {/* Bottom Section - Yellow Content */}
-                        <div className="bg-yellow-400 p-8 lg:p-12 flex-1 flex flex-col justify-center border-radius-yellow">
+                        <div className="border-bot-rad bg-yellow-400 p-8 lg:p-12 flex-1 flex flex-col justify-center border-radius-yellow">
                             {/* Description paragraphs */}
                             <div className="space-y-6 text-white leading-relaxed mb-8">
                                 <p className="text-base lg:text-lg">
