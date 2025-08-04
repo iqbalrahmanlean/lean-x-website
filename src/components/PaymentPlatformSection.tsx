@@ -96,7 +96,7 @@ export default function PaymentPlatformSection() {
                     </div>
 
                     <div className="bg-yellow-400 rounded-lg p-6 ">
-                        <div className="space-y-4 text-white leading-relaxed mb-6">
+                        <div className="space-y-4 text-white leading-relaxed mb-6 text-center">
                             <p className="text-sm">
                                 Lean.X is a secure, flexible, and easy-to-integrate payment gateway
                                 platform tailored to the needs of modern businesses. Built with scalability
@@ -113,7 +113,7 @@ export default function PaymentPlatformSection() {
                         </div>
                         
                         <div className="text-center">
-                            <button className="bg-white text-yellow-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-md w-full sm:w-auto">
+                            <button className="bg-white text-yellow-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-md sm:w-auto w-auto">
                                 Learn More
                             </button>
                         </div>
