@@ -25,14 +25,10 @@ export default function Home() {
         <PaymentPlatformSection />
         <SeamlessIntegrationSection />
         <WhoWeveWorkedWith />
-        <OurAdvisorSection />
+        {/* <OurAdvisorSection /> */} 
         <OurLeadershipSection />
         <MeetOurTeamSection />
         <ContactSection />
-
-
-
-
       </main>
       <Footer />
     </div>

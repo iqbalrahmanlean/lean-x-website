@@ -272,8 +272,33 @@ html {
   margin-bottom: 10px;
 }
 
-.styling-full{
-      margin-bottom: 40px;
-    margin-top: 40px;
-    padding: 0px 5px;
+.styling-full {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 0px 5px;
+}
+
+.mobile-home-top{
+      width: 139.05px;
+    height: 151px;
+    margin: 0 30px;
+}
+
+.mobile-payment-logo{
+      width: 63.23694610595703px;
+    height: 16px;
+    /* position: fixed; */
+    margin-top: 55px;
+    position: relative;
+    bottom: 0;
+    top: 0;
+    right: 47px;
+}
+
+.mobile-payment-header{
+
+    width: 116.98px;
+    height: 54px;
+    margin-top: 20px;
+
 }
