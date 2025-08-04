@@ -30,7 +30,7 @@ export default function PaymentPlatformSection() {
                             <div className="w-[30%] relative">
                                 <div className="absolute top-24 left-0 z-10 custom-layout">
                                     <img
-                                        src="home-top.webp"
+                                        src="home-top.svg"
                                         alt="Payment Platform Mobile App"
                                         className="w-165 max-w-none"
                                     />
