@@ -36,7 +36,11 @@ export default function ContactSection() {
   return (
     <section id="contact" className="py-16 px-6 relative" style={{ background: 'linear-gradient(90deg, #ffc200 40%, #FCFBFF 40%)' }}>
       {/* Vertical line that matches the background split exactly with padding */}
-     <div className="absolute left-[40%] top-[5%] bottom-[5%] w-px bg-yellow-400 z-20" style={{ backgroundColor: '#FFC200' }}></div>
+   <div className="absolute left-[40%] top-0 bottom-0 flex items-center z-20">
+  <div className="h-[60%] w-px bg-yellow-400"></div>
+</div>
+
+
 
       
       <div className="max-w-7xl mx-auto flex items-center justify-center min-h-[600px]">
