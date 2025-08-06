@@ -34,15 +34,18 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-16 px-6" style={{ background: 'linear-gradient(90deg, #ffc200 50%, #FCFBFF 50%)' }}>
+    <section id="contact" className="py-16 px-6 relative" style={{ background: 'linear-gradient(90deg, #ffc200 40%, #FCFBFF 40%)' }}>
+      {/* Vertical line that matches the background split exactly with padding */}
+     <div className="absolute left-[40%] top-[5%] bottom-[5%] w-px bg-yellow-400 z-20" style={{ backgroundColor: '#FFC200' }}></div>
+
+      
       <div className="max-w-7xl mx-auto flex items-center justify-center min-h-[600px]">
         {/* Centered White Card */}
-        <div className="bg-white rounded-lg shadow-lg border  w-full max-w-5xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-            {/* Left Side - Contact Info */}
-            <div className="p-12 relative">
-              {/* Custom border with padding */}
-              <div className="absolute right-0 top-12 bottom-12 w-px bg-yellow-400" style={{ backgroundColor: '#FFC200' }}></div>
+        <div className="bg-white rounded-lg shadow-lg border w-full max-w-5xl relative">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-0">
+            {/* Left Side - Contact Info (40%) */}
+            <div className="lg:col-span-2 p-12 relative">
+              {/* Remove the old border line since we now have the absolute positioned one */}
               <h2 className="text-4xl font-bold text-yellow-400 mb-6">Get in Touch</h2>
               <p className="text-gray-700 mb-8">Have questions? Our team is ready to assist.</p>
               
@@ -77,10 +80,8 @@ export default function ContactSection() {
               </div>
             </div>
 
-  
-
-            {/* Right Side - Contact Form */}
-            <div className="p-12">
+            {/* Right Side - Contact Form (60%) */}
+            <div className="lg:col-span-3 p-12">
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* Name Fields */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
