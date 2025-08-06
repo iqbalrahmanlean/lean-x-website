@@ -32,7 +32,7 @@ export default function PaymentPlatformSection() {
                                     <img
                                         src="home-top.svg"
                                         alt="Payment Platform Mobile App"
-                                        className="w-165 max-w-none mt-1"
+                                        className="w-165 max-w-none margin-image"
                                     />
                                 </div>
                             </div>
@@ -54,7 +54,8 @@ export default function PaymentPlatformSection() {
                                         </p>
                                     </div>
                                     <div>
-                                        <button className="hover-button-reverse bg-white text-yellow-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-md">
+                                        <button className="hover-button-reverse bg-white text-yellow-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-md border border-white
+">
                                             Learn More
                                         </button>
                                     </div>
