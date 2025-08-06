@@ -43,7 +43,7 @@ export default function ContactSection() {
       style={{ background: "linear-gradient(90deg, #ffc200 40%, #FCFBFF 40%)" }}
     >
   
-      <div className="absolute left-[40%] top-0 bottom-0 flex items-center z-20">
+      <div className="hidden sm:flex absolute left-[40%] top-0 bottom-0 items-center z-20">
         <div className="h-[60%] w-px bg-yellow-400"></div>
       </div>
 
