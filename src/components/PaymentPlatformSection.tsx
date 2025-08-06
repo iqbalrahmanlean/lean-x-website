@@ -32,7 +32,7 @@ export default function PaymentPlatformSection() {
                                     <img
                                         src="home-top.svg"
                                         alt="Payment Platform Mobile App"
-                                        className="w-165 max-w-none"
+                                        className="w-165 max-w-none mt-1"
                                     />
                                 </div>
                             </div>
