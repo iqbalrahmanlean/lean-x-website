@@ -78,7 +78,7 @@ export default function ContactSection() {
                   <div className="text-gray-800 font-medium">
                     <div>T2-21-11, 8trium Tower</div>
                     <div>Jalan Cempaka SD12/5</div>
-                    <div>Bandar Sri Damansara,52200 , Kuala Lumpur,  Malaysia</div>
+                    <div>Bandar Sri Damansara,52200 <br /> Kuala Lumpur,  Malaysia</div>
                   </div>
                 </div>
               </div>
