@@ -28,7 +28,7 @@ export default function OurAdvisorSection() {
   ];
 
   return (
-    <section id="people" className="bg-white py-16">
+    <section  className="bg-white py-16">
       <div className="mx-auto">
         {/* Header with yellow background */}
         <div className="mb-12 max-w-sm">

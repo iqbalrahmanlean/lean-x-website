@@ -35,7 +35,7 @@ export default function OurLeadershipSection() {
   ];
 
   return (
-    <section className="bg-white py-16">
+    <section id="people" className="bg-white py-16">
       <div className="mx-auto">
         {/* Header with yellow background */}
         <div className="mb-12 max-w-sm ml-auto">
